@@ -59,7 +59,7 @@ function App() {
     <div className="app-root">
       <div className="app-container">
         <h1 className="app-title">Welcome to Recipe Ideas</h1>
-        <p className="app-subtitle">cook together</p>
+        <p className="app-subtitle">I will help you in cooking </p>
         <SearchBar
           ingredient={ingredient}
           setIngredient={setIngredient}
