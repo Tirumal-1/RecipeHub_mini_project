@@ -1,0 +1,15 @@
+ .recipe-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1rem;
+  padding: 0 1rem;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Optional: center items if fewer */
+@media (min-width: 600px) {
+  .recipe-list {
+    justify-content: center;
+  }
+}

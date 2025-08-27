@@ -1,0 +1,103 @@
+ /* Make body and html take up full viewport */
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background: #232323;
+}
+
+#root {
+  height: 100vh;  
+}
+
+/* Root level container, takes full viewport and centers children */
+.app-root {
+  min-height: 100vh;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items:center;
+  justify-content:center;
+  background-image: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1350&q=80');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+/* Main app container */
+ .app-container {
+  width: 90vw;
+  max-width: 900px;
+  max-height: 85vh;        
+  margin: 0;
+  padding: 2rem 1rem;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  color: #222;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;  
+  background: rgba(255, 255, 255, 0.85);
+  border-radius: 20px;
+  box-shadow: 0 4px 30px rgba(0,0,0,0.15);
+  overflow-y: auto;       
+  scrollbar-width: thin;  
+  scrollbar-color: #888 transparent;
+}
+
+/* Optional: customize scrollbar on Webkit browsers */
+.app-container::-webkit-scrollbar {
+  width: 8px;
+}
+
+.app-container::-webkit-scrollbar-thumb {
+  background-color: #888;
+  border-radius: 4px;
+}
+
+.app-container::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+
+@media (max-width: 800px) {
+  .app-container {
+    width: 97vw;
+    min-height: 95vh;
+    padding: 1rem;
+    border-radius: 8px;
+  }
+  .app-root {
+    padding: 0;
+  }
+}
+
+.app-title {
+  font-size: 2.5rem;
+  margin-bottom: 0.2rem;
+  font-weight: 700;
+  color: #1f2937;
+  text-shadow: 1px 1px 2px rgba(255, 255, 255, 0.7);
+}
+
+.app-subtitle {
+  font-size: 1.1rem;
+  color: #4b5563;
+  margin-bottom: 2rem;
+  font-style: italic;
+}
+
+.loading {
+  font-size: 1.25rem;
+  margin: 1rem 0;
+  color: #444;
+}
+
+.error {
+  color: red;
+  font-weight: bold;
+  margin: 1rem 0;
+}
