@@ -16,9 +16,9 @@ The app leverages the **[TheMealDB API](https://www.themealdb.com/api.php)** to 
 ---
 
 ## 🛠️ Technologies Used
-- **Frontend:** React.js (or specify if another framework/library was used)  
+- **Frontend:**HTML, CSS, javascript,  React.js  
 - **API:** [TheMealDB API](https://www.themealdb.com/api.php)  
-- **Hosting:** Deployed on [CodeSandbox/StackBlitz] *(replace with actual deployed link)*  
+- **Hosting:** Deployed on [CodeSandbox]  https://vmfdds-5173.csb.app/
 
 ---
 
@@ -26,6 +26,6 @@ The app leverages the **[TheMealDB API](https://www.themealdb.com/api.php)** to 
 1. 🥕 Enter an **ingredient** in the search box.  
 2. 🔍 Press the **search button** or hit **Enter**.  
 3. 📖 Browse through the list of **recipes** that use the given ingredient.  
-4. 🍛 *(Optional)* Select a **recipe** to view more details (if implemented).  
+4. 🍛 *(Optional)* Select a **recipe** to view more details  .  
 
 ---
