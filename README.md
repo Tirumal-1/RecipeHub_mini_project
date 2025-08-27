@@ -1,12 +1,31 @@
-# React + Vite
+ # 🍽️ Recipe Ideas Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📌 Overview
+**Recipe Ideas** is a **practical web application** designed for **Taylor**, a busy professional, to quickly **find meal inspiration** based on available ingredients, mood, or cooking time.  
+The app leverages the **[TheMealDB API](https://www.themealdb.com/api.php)** to fetch recipes by ingredient, helping users discover meals that fit their preferences with ease.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features
+- 🥦 **Search recipes by ingredient** to use what’s available at home  
+- ⏱️ **Filter recipes by cooking time or preferences** *(future feature)*  
+- 🍲 **View recipe details** including meal name, image, and category  
+- ⚡ **User-friendly and fast interface** for quick decision-making  
+- 📱 **Responsive design** for both desktop and mobile devices  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Technologies Used
+- **Frontend:** React.js (or specify if another framework/library was used)  
+- **API:** [TheMealDB API](https://www.themealdb.com/api.php)  
+- **Hosting:** Deployed on [CodeSandbox/StackBlitz] *(replace with actual deployed link)*  
+
+---
+
+## 🚀 How to Use
+1. 🥕 Enter an **ingredient** in the search box.  
+2. 🔍 Press the **search button** or hit **Enter**.  
+3. 📖 Browse through the list of **recipes** that use the given ingredient.  
+4. 🍛 *(Optional)* Select a **recipe** to view more details (if implemented).  
+
+---
